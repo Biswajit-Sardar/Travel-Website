@@ -54,3 +54,26 @@ header{
 .logo{
     font-size: 24px ;
 }
+
+.hero-section .content_wrapper{
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255); 
+    padding: 0 20px;
+    margin: 0 auto;
+    
+    
+
+
+    
+}
+
+.content_wrapper h1{
+    font-size: 24px;
+    font-weight: 700;
+}
