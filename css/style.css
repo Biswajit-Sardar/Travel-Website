@@ -82,7 +82,98 @@ header{
 form{
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to right,yellow,blue);
+    background: linear-gradient(to right,rgb(102, 102, 144),rgb(0, 162, 255),rgb(98, 98, 196));
+    width: 100%; 
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;  
+    align-items: center;
+    justify-content: left ; 
+    padding: 30px;
+}
+
+.search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-item div{
+    color:   rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.search-item input{
+    height: 25px;
     width: 100%;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;;
+    color: rgb(92, 89, 84);
+}
+
+.Search_btn{
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+    background-color: rgb(0, 157, 255);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+
+.services{
+    padding: 100px 0;
+    background: rgb(255, 255, 255);
+
+}
+.services h5{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.services h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.services .row{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-column: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+
+}
+
+.services .row .col{
+    padding: 40px;
+    text-align: center;
+    margin: 30px 10px;
+
+}
+
+.services .row .col h2{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    
+
 
 }
