@@ -87,6 +87,20 @@ header{
     font-size: 24px;
     font-weight: 700;
 }
+.content_wrapper h1{
+
+    color: rgb(142, 255, 251);
+
+}
+.content_wrapper p{
+    color: rgb(0, 44, 42);
+    font-size: 16px;
+    margin: 10px 0 20px 0;  
+
+}
+
+
+
 
 
 form{
