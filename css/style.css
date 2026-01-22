@@ -240,3 +240,45 @@ form{
     padding: 3px 10px;
     text-decoration: none;
 }
+
+
+
+/* Default (Desktop view) */
+.nav-list {
+    display: flex;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background: white;
+        color: black;
+        width: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .nav-list li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .nav-list.show {
+        display: block;
+    }
+}
