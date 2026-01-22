@@ -34,33 +34,33 @@
             <p>Find best places to stay, eat, and explore with our expertly curated travel experiences and enjoy. </p>
         </div>
 
-        <form action="">
+        <form id="searchForm" action="">
             <div class="search-item">
                 <div>Destination</div>
-                <input type="text" placeholder="Ex: Hotels, Tour, .....">
+                <input id="destination"  type="text" placeholder="Ex: Hotels, Tour, .....">
             </div>
 
-            <div class="search-item">
+            <div type="date" class="search-item">
                 <div>Check In</div>
-                <input type="date">
+                <input  id="checkin" type="date">
             </div>
 
-            <div class="search-item">
+            <div type="date" class="search-item">
                 <div>Check Out</div>
-                <input type="date">
+                <input id="checkout" type="date">
             </div>
 
             <div class="search-item">
                 <div>Adults</div>
-                <input type="number" placeholder="No of Adults">
+                <input  id="adults" type="number" placeholder="No of Adults">
             </div>
 
             <div class="search-item">
                 <div>Children</div>
-                <input type="number" placeholder="No of Children">
+                <input type="number" id="children" placeholder="No of Children">
             </div>
             <div class="search-item">
-                <button class="Search_btn">Search...</button>
+                <button type="submit" class="Search_btn">Search...</button>
             </div>
         </form>
     </div>
