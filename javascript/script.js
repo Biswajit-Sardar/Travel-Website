@@ -19,9 +19,9 @@ searchBtn.addEventListener("click", function (e) {
     const adults = document.querySelector("#adults").value;
 
     if (!destination || !checkIn || !checkOut || !adults) {
-        alert("⚠️ Please fill all required fields");
+        alert("Please fill all required fields");
     } else {
-        alert("✅ Searching your best tour...");
+        alert("Searching your best tour...");
     }
 });
 
